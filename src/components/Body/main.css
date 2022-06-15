@@ -1,0 +1,14 @@
+.imgPoke{
+    max-height: 200px;
+    filter: blur(5px);
+}
+.imgPokeDiscover{
+    max-height: 200px;
+}
+.name{
+    display: none;
+}
+.btn{
+    background-color: black;
+    color: white;
+}
