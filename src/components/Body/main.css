@@ -1,14 +1,58 @@
 .imgPoke{
-    max-height: 200px;
+    max-height: 150px;
     filter: blur(5px);
 }
 .imgPokeDiscover{
-    max-height: 200px;
+    max-height: 150px;
 }
 .name{
     display: none;
 }
 .btn{
-    background-color: black;
+    background-color: black!important;
     color: white;
+}
+.buttons{
+    display: grid;
+    justify-content: center;
+    row-gap: 1vh;
+    width: 20vw;
+    margin: auto;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+.title{
+    padding: 0;
+    margin-top: 0;
+}
+.body{
+    background-color: #f02525;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(4, 4, 4);
+}
+#nameInput{
+    color: black;
+    background-color: white;
+    height: 1vh;
+    border-radius: 5px;
+}
+.score{
+    position: fixed;
+    right: 0;
+    top: 15vh;
+    margin-right: 5vh;
+    font-size: 1rem;    
+}
+.hide{
+    display: none;
+}
+.show{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center; 
 }

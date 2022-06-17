@@ -3,3 +3,11 @@
     justify-content: space-around;
     align-items: center;
 }
+.imgNav{
+    height: 5vh;
+    align-self: center;
+    margin-right: 1vw;
+}
+.bar{
+    display: flex;
+}
