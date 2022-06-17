@@ -42,11 +42,8 @@
     border-radius: 5px;
 }
 .score{
-    position: fixed;
-    right: 0;
-    top: 15vh;
     margin-right: 5vh;
-    font-size: 1rem;    
+    font-size: 2rem;    
 }
 .hide{
     display: none;
