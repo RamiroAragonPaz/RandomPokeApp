@@ -1,0 +1,23 @@
+.body{
+    background-color: #f02525;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    font-size: 25px;
+    color:black;
+    
+}
+.score{
+    margin-right: 5vh;
+    font-size: 2rem;    
+}
+.hide{
+    display: none;
+}
+.show{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center; 
+}

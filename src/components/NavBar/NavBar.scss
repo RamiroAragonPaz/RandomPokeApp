@@ -1,0 +1,35 @@
+.navBar {
+    border-bottom: 5px solid black;
+    overflow: hidden;
+
+    a {
+        text-decoration: none;
+        color: black;
+
+        
+        .container{
+            display: flex;
+            margin: 0 auto;
+            width: 20%;
+            flex-direction: column;
+            
+            .imgNav{
+                display: inline;
+                margin: 1vh auto;
+                height: 7vh;    
+            }
+
+            .text {
+                text-align: center;
+                margin: 0 0 10px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1024px){
+    .navBar a .container{
+        width: 90vw;
+        justify-content: center;
+    }
+
+}

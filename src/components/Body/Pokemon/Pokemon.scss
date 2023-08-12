@@ -1,0 +1,209 @@
+.game-container {
+    width: 50vw;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    .start-container{
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+        margin: 0 auto;
+        text-align: center;
+        
+        input{
+            border: 1px solid black;
+            height: 40px;
+            margin-bottom: 10px;
+            font-size: 20px;
+            
+            &:focus{
+                outline: 1px solid black;
+            }
+        }
+
+        .btn {
+            font-size: 20px;
+            height: 40px;
+            border: none;
+            background-color: black;
+            color: white;
+            margin-bottom: 10px;
+
+            &:hover {
+                transform: scale(1.01);
+                transition: all 0.1s ease-in-out;
+            }
+        }
+    }
+
+    .totals-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .title{
+        text-shadow: 0.5px 0.5px 5px  white;
+        margin: 0;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .detail-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+
+        .image-container{
+            display: flex;
+            justify-content: center;
+            height: 25vh;
+            margin: 20px 0;
+
+            .imgPoke{
+                
+                max-height: 25vh;
+            }
+
+            .blur{
+                filter: blur(5px);
+            }
+        }
+    
+        .buttons{
+            width: 70%;
+            margin: 0 auto 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 30%;
+            
+            input{
+                border: 1px solid black;
+                height: 40px;
+                margin-bottom: 10px;
+                
+                &:focus{
+                    outline: 1px solid black;
+                }
+            }
+
+            .btn {
+                font-size: 20px;
+                height: 40px;
+                border: none;
+                background-color: black;
+                color: white;
+                margin-bottom: 10px;
+
+                &:hover {
+                    transform: scale(1.01);
+                    transition: all 0.1s ease-in-out;
+                }
+            }
+        }
+
+        .text{
+            text-align: center;
+            margin-top: 0;
+
+            #name {
+                display: none;
+            }
+        }
+
+        .final-button{
+            display: flex;
+            justify-content: center;
+
+            .btn {
+                font-size: 20px;
+                width: 30%;
+                height: 40px;
+                background-color: black;
+                color: white;
+                border: none;
+                margin-bottom: 5vh;
+
+                &:hover {
+                    transform: scale(1.01);
+                    transition: all 0.1s ease-in-out;
+                }
+            
+            }
+        }
+    }
+
+    .final-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .btn {
+            padding: 10px;
+            font-size: 20px;
+            height: 40px;
+            border: none;
+            background-color: black;
+            color: white;
+            margin-bottom: 10px;
+
+            &:hover {
+                transform: scale(1.01);
+                transition: all 0.1s ease-in-out;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1024px){
+    .game-container {
+        width: 90vw;
+
+        .start-container{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            
+            input{
+                border: 1px solid black;
+                height: 40px;
+                margin-bottom: 10px;
+                font-size: 20px;
+                
+                &:focus{
+                    outline: 1px solid black;
+                }
+            }
+
+            .btn {
+                font-size: 20px;
+                height: 40px;
+                border: none;
+                background-color: black;
+                color: white;
+                margin-bottom: 10px;
+
+                &:hover {
+                    transform: scale(1.01);
+                    transition: all 0.1s ease-in-out;
+                }
+            }
+        }
+        .totals-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h3 {
+                margin: 10px 0;
+            }
+        }
+        .final-container{
+            text-align: center;
+        }
+    }
+}
